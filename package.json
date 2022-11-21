@@ -9,6 +9,7 @@
     "build": "echo 'building (go oberdan!)'"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "module-definition": "^4.0.0"
   }
