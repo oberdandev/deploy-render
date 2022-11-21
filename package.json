@@ -1,4 +1,15 @@
 {
   "name": "deploy-render",
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.3.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "echo 'building (go oberdan!)'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "module-definition": "^4.0.0"
+  }
 }
